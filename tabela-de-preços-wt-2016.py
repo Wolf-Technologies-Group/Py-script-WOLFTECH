@@ -59,7 +59,7 @@ print '--' * 80
 # Informativo sobre os descontos promocionais de acordo com o número de computadores
 
 if service == 1 :
-    pc = input (" Quantos computadores serão atendidos ?  ")
+    pc = input (" Quantos computadores serão atendidos  ?  ")
     print
     total_pc = wolf_service * pc
     print       " O Custo total do serviço é de: R$ %.2f  " % total_pc
