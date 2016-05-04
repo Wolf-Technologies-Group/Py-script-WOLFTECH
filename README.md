@@ -1,4 +1,4 @@
-# Script The price gonna be payd !
+# Script 
 
 Script escrito em python para facilitar os cálculos referentes a atendimentos corporativos e comuns.
 
