@@ -1,6 +1,7 @@
 # Script Gerador-de-orçamento
 
-# Script escito em python para facilitar a solicitação do cliente em relação a orçamentos.
+# How it works ?
+Escito em python para facilitar a solicitação do cliente em relação a orçamentos.
 
 
 
