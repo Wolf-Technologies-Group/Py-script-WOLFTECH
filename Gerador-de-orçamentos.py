@@ -4,8 +4,8 @@
 
 #######        Tabela de serviços WT 2016       ########
 ########      Creator - Victor Consuegra       ########
-##########           21/02/2016               ########
-###########           Versão  1.6 (C.S MODE)          #########
+##########           21/02/2016               #########
+###########         Versão  1.6             ###########
 
 
 
@@ -43,8 +43,8 @@ deal_contract  = 69.90 # 2 visitas por mês + Manutenção + Diagnóstico de sis
 
 # Funções extras
 
-import os  # Funções do sistema que está executando o script
-import sys # Ativar a função sys.exit
+import os  
+import sys 
 
 #Hora atual
 
