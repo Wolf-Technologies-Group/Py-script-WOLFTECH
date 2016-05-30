@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2.7
 # -*- coding: utf-8 -*-
 
 
@@ -7,7 +7,7 @@
 ##########           21/02/2016               #########
 ###########         Versão  1.6             ###########
 
-
+# Executar o script na versão python2.7
 
 
 #Declaração de variáveis / Operacional
@@ -44,7 +44,7 @@ deal_contract  = 69.90 # 2 visitas por mês + Manutenção + Diagnóstico de sis
 # Funções extras
 
 import os  
-import sys 
+import sys
 
 #Hora atual
 
@@ -216,9 +216,20 @@ def menu_opcao():
 
 
     else:
+        menu_opcao() # Evita erros caso o usuário digite um valor diferente do solicitado
+
+menu_opcao()  # Begin
+
+# Loop para o script
+# Com este loop, o script sempre irá perguntar no final de cada orçamento se deseja fazer outro cálculo ou se deseja fechar o programa
+
+while menu_opcao()!= 0:
+    print " Deseja fazer um novo orçamento ?
+    verific = raw_input (" [Sim] ou [Não] " )
+    if verific == 'sim':
         menu()
-
-menu_opcao()  # Inicia o script
-
+        menu_opcoes()
+    else:
+        sys.exit()
 
 
