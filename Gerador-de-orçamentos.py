@@ -8,6 +8,7 @@
 ###########         Versão  1.6             ###########
 
 # Executar o script na versão python2.7
+# Em breve teremos na versão 3 do python
 
 
 #Declaração de variáveis / Operacional
